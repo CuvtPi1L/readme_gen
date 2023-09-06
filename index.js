@@ -79,7 +79,7 @@ inquirer
                 `;
                         
                 
-                let writeHTML = (jeb) => {fs.writeFile('index.html', jeb, ()=> console.log('got it done!')) }
+                let writeHTML = (jeb) => {fs.writeFile('index.md', jeb, ()=> console.log('got it done!')) }
                 writeHTML(outputToHtml)
         })
 
